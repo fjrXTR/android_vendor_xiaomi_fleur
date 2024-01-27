@@ -59,7 +59,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fleur/proprietary/vendor/bin/gsm0710muxd:$(TARGET_COPY_OUT_VENDOR)/bin/gsm0710muxd \
     vendor/xiaomi/fleur/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.1-service-mediatek \
     vendor/xiaomi/fleur/proprietary/vendor/bin/hw/android.hardware.drm@1.4-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.4-service.widevine \
-    vendor/xiaomi/fleur/proprietary/vendor/bin/hw/android.hardware.gnss-service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss-service.mediatek \
     vendor/xiaomi/fleur/proprietary/vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek \
     vendor/xiaomi/fleur/proprietary/vendor/bin/hw/android.hardware.keymaster@4.1-service.beanpod:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.1-service.beanpod \
     vendor/xiaomi/fleur/proprietary/vendor/bin/hw/android.hardware.media.c2@1.2-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.media.c2@1.2-mediatek \
@@ -69,7 +68,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fleur/proprietary/vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.secure_element@1.2-service-mediatek \
     vendor/xiaomi/fleur/proprietary/vendor/bin/hw/android.hardware.sensors@2.0-service.multihal-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@2.0-service.multihal-mediatek \
     vendor/xiaomi/fleur/proprietary/vendor/bin/hw/android.hardware.thermal@2.0-service.mtk:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.thermal@2.0-service.mtk \
-    vendor/xiaomi/fleur/proprietary/vendor/bin/hw/android.hardware.usb@1.2-service-mediatekv2:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.2-service-mediatekv2 \
     vendor/xiaomi/fleur/proprietary/vendor/bin/hw/android.hardware.vibrator-service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.vibrator-service.mediatek \
     vendor/xiaomi/fleur/proprietary/vendor/bin/hw/camerahalserver:$(TARGET_COPY_OUT_VENDOR)/bin/hw/camerahalserver \
     vendor/xiaomi/fleur/proprietary/vendor/bin/hw/mtkfusionrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mtkfusionrild \
@@ -330,7 +328,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fleur/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml \
     vendor/xiaomi/fleur/proprietary/vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc \
     vendor/xiaomi/fleur/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc \
-    vendor/xiaomi/fleur/proprietary/vendor/etc/init/android.hardware.gnss-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-service.mediatek.rc \
     vendor/xiaomi/fleur/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc \
     vendor/xiaomi/fleur/proprietary/vendor/etc/init/android.hardware.keymaster@4.1-service.beanpod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.1-service.beanpod.rc \
     vendor/xiaomi/fleur/proprietary/vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2@1.2-mediatek.rc \
@@ -339,7 +336,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fleur/proprietary/vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc \
     vendor/xiaomi/fleur/proprietary/vendor/etc/init/android.hardware.sensors@2.0-service.multihal-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.0-service.multihal-mediatek.rc \
     vendor/xiaomi/fleur/proprietary/vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@2.0-service.mtk.rc \
-    vendor/xiaomi/fleur/proprietary/vendor/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc \
     vendor/xiaomi/fleur/proprietary/vendor/etc/init/atcid.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atcid.rc \
     vendor/xiaomi/fleur/proprietary/vendor/etc/init/audiocmdservice_atci.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/audiocmdservice_atci.rc \
     vendor/xiaomi/fleur/proprietary/vendor/etc/init/bootperf.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/bootperf.rc \
@@ -738,7 +734,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fleur/proprietary/vendor/lib/hw/gralloc.mt6781.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.mt6781.so \
     vendor/xiaomi/fleur/proprietary/vendor/lib/hw/kmsetkey.beanpod.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/kmsetkey.beanpod.so \
     vendor/xiaomi/fleur/proprietary/vendor/lib/hw/libSoftGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/libSoftGatekeeper.so \
-    vendor/xiaomi/fleur/proprietary/vendor/lib/hw/memtrack.mt6781.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.mt6781.so \
     vendor/xiaomi/fleur/proprietary/vendor/lib/hw/power.mt6781.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.mt6781.so \
     vendor/xiaomi/fleur/proprietary/vendor/lib/hw/sound_trigger.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.default.so \
     vendor/xiaomi/fleur/proprietary/vendor/lib/hw/thermal.mt6781.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.mt6781.so \
@@ -1610,8 +1605,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fleur/proprietary/vendor/lib64/gc02m1_macro_ofilm_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1_macro_ofilm_mipi_raw_tuning.so \
     vendor/xiaomi/fleur/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.1-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.1-impl-mediatek.so \
     vendor/xiaomi/fleur/proprietary/vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so \
-    vendor/xiaomi/fleur/proprietary/vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss-impl-mediatek.so \
-    vendor/xiaomi/fleur/proprietary/vendor/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so \
     vendor/xiaomi/fleur/proprietary/vendor/lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so \
     vendor/xiaomi/fleur/proprietary/vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so \
     vendor/xiaomi/fleur/proprietary/vendor/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so \
@@ -1628,7 +1621,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fleur/proprietary/vendor/lib64/hw/hwcomposer.mt6781.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.mt6781.so \
     vendor/xiaomi/fleur/proprietary/vendor/lib64/hw/kmsetkey.beanpod.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/kmsetkey.beanpod.so \
     vendor/xiaomi/fleur/proprietary/vendor/lib64/hw/libSoftGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/libSoftGatekeeper.so \
-    vendor/xiaomi/fleur/proprietary/vendor/lib64/hw/memtrack.mt6781.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.mt6781.so \
     vendor/xiaomi/fleur/proprietary/vendor/lib64/hw/power.mt6781.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.mt6781.so \
     vendor/xiaomi/fleur/proprietary/vendor/lib64/hw/sensors.elliptic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.elliptic.so \
     vendor/xiaomi/fleur/proprietary/vendor/lib64/hw/sensors.mt6781.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.mt6781.so \
@@ -2677,8 +2669,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libfmjni \
     libpowerhal \
+    libwifi-hal-mtk \
     ImsService \
-    IFAAService \
     mediatek-common \
     mediatek-framework \
     mediatek-ims-base \
@@ -2690,9 +2682,6 @@ PRODUCT_PACKAGES += \
     mediatek-wfo-legacy \
     com.fingerprints.extension \
     android.hardware.neuralnetworks@1.3-service-mtk-gpu \
-    android.hardware.usb@1.2-service-mediatekv2 \
-    gnss-mtk-default \
-    gnss-mtk@2.1-service \
     manifest_android.hardware.drm@1.4-service.widevine \
     manifest_media_c2_V1_1_mediatek \
     vendor.xiaomi.hardware.micharge@1.0 \
